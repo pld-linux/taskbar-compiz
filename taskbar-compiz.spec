@@ -1,4 +1,3 @@
-
 %define		_kdever	3.5.4
 Summary:	taskbar-compiz - modified kicker taskbar for compiz
 Summary(pl.UTF-8):	taskbar-compiz - zmodyfikowany pasek zadań dla compiza
@@ -31,10 +30,10 @@ uncheck in manually in ~/.kde/share/config/ktaskbarrc
 To jest zmodyfikowana wersja paska zadań dla KDE, która
 współpracuje z compizem.
 
-Notatka: ta wersja nie pozwala na zmianę "Pokazywania okien ze
+Uwaga: ta wersja nie pozwala na zmianę "Pokazywania okien ze
 wszystkich pulpitów" ("Show windows from all desktops") podczas
-uruchomionego beryla. Powinieneś edytować
-~/.kde/share/config/ktaskbarrc ręcznie.
+uruchomionego beryla. Należy wyłączyć tę opcję wcześniej lub
+wyłączyć ją w ~/.kde/share/config/ktaskbarrc ręcznie.
 
 %prep
 %setup -q -n %{name}
